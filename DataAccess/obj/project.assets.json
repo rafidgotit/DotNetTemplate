@@ -315,6 +315,16 @@
         "build": {
           "buildTransitive/net6.0/_._": {}
         }
+      },
+      "Framework/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "compile": {
+          "bin/placeholder/Framework.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Framework.dll": {}
+        }
       }
     }
   },
@@ -760,10 +770,16 @@
         "microsoft.extensions.primitives.nuspec",
         "useSharedDesignerContext.txt"
       ]
+    },
+    "Framework/1.0.0": {
+      "type": "project",
+      "path": "../Framework/Framework.csproj",
+      "msbuildProject": "../Framework/Framework.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net7.0": [
+      "Framework >= 1.0.0",
       "Microsoft.AspNetCore.Identity.EntityFrameworkCore >= 7.0.4",
       "Microsoft.EntityFrameworkCore >= 7.0.4"
     ]
@@ -794,7 +810,11 @@
       "frameworks": {
         "net7.0": {
           "targetAlias": "net7.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\development\\dotnet_projects\\sugary-link\\Framework\\Framework.csproj": {
+              "projectPath": "C:\\development\\dotnet_projects\\sugary-link\\Framework\\Framework.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

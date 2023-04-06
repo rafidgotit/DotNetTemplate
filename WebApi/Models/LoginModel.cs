@@ -6,11 +6,11 @@ namespace Sugary.WebApi.Models;
 public class LoginModel
 {
     [Required]
-    public string UserName { get; set; }
+    public string Email { get; set; }
     [Required]
     public string Password { get; set; }
-    public DeviceInfoModel DeviceInfo { get; set; }
 }
+
 public class ProfileUpdateDto
 {
     public string Avatar { get; set; }
@@ -57,5 +57,4 @@ public class TokenModel
     public string RefreshToken { get; set; }
     public DateTime? AccessTokenExpiresAt { get; set; }
     public DateTime? RefreshTokenExpiresAt { get; set; }
-    public DeviceInfoModel DeviceInfo { get; set; }
 }

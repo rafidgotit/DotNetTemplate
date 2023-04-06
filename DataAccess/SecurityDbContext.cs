@@ -1,4 +1,5 @@
 ﻿using DataAccess.Entities;
+using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
 
@@ -16,5 +17,6 @@ public class SecurityDbContext : IdentityDbContext<PortalUser>
         base.OnModelCreating(builder);
 
         builder.Entity<PortalUser>().ToTable("PortalUser");
+        builder.Entity<IdentityUserClaim<string>>().ToTable("UserClaim");
     }
 }

@@ -16,7 +16,6 @@
                                    [AccessFailedCount] [int] NOT NULL,
                                    [FirstName] [nvarchar](50) NOT NULL,
                                    [LastName] [nvarchar](50) NOT NULL,
-                                   [DateOfBirth] [date] NOT NULL,
                                    [StreetAddress] [nvarchar](100) NULL,
                                    [City] [nvarchar](50) NULL,
                                    [State] [nvarchar](50) NULL,
@@ -34,10 +33,35 @@ alter table PortalUser add Avatar nvarchar(256),
     Provider nvarchar(20),
     SuperAdmin bit,
     RoleId int,
-    GoogleUserId nvarchar(100),
-    FacebookUserId nvarchar(100),
     CreatedAt datetime,
     Otp int,
     OtpExpiryAt datetime,
     LastLoginAt datetime;
-    
+
+alter table PortalUser add IsAdmin bit not null default 0;
+
+
+create table dbo.UserClaim
+(
+    Id            int identity
+        constraint PK_UserClaim
+            primary key,
+    UserId        nvarchar(100) not null
+        constraint FK_UserClaim_PortalUser_UserId
+            references dbo.PortalUser,
+    CreatedAt     datetime,
+    ReclaimedAt   datetime,
+    DeviceId      nvarchar(150),
+    BrandName     nvarchar(50),
+    ModelName     nvarchar(50),
+    Platform      nvarchar(20),
+    SystemVersion nvarchar(15),
+    SystemId      nvarchar(15),
+    ExpiryAt      datetime,
+    FcmToken      nvarchar(1024),
+    RefreshToken  nvarchar(80),
+    ClaimType     nvarchar(20),
+    ClaimValue    nvarchar(150),
+    IpAddress     nvarchar(16)
+)
+go

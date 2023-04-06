@@ -1,7 +1,6 @@
-﻿using System;
-using System.Net;
+﻿using System.Net;
 
-namespace Sugary.Framework.Exceptions
+namespace Framework.Exceptions
 {
     public class ApiException : Exception
     {

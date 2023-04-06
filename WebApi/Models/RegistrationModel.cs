@@ -1,6 +1,6 @@
 ﻿using System.ComponentModel.DataAnnotations;
 
-namespace Sugary.WebApi.Models;
+namespace WebApi.Models;
 
 public class RegistrationModel
 {
@@ -10,9 +10,7 @@ public class RegistrationModel
 
     public string FirstName { get; set; }
     public string LastName { get; set; }
-    public int? RoleId { get; set; }
     public string Avatar { get; set; }
 
     public string Email { get; set; }
-    public DeviceInfoModel DeviceInfo { get; set; }
 }

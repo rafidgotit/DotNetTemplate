@@ -27,7 +27,11 @@
         "frameworks": {
           "net7.0": {
             "targetAlias": "net7.0",
-            "projectReferences": {}
+            "projectReferences": {
+              "C:\\development\\dotnet_projects\\sugary-link\\Framework\\Framework.csproj": {
+                "projectPath": "C:\\development\\dotnet_projects\\sugary-link\\Framework\\Framework.csproj"
+              }
+            }
           }
         },
         "warningProperties": {

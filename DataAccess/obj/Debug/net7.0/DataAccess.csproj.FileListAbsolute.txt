@@ -10,3 +10,6 @@ C:\development\dotnet_projects\sugary-link\DataAccess\obj\Debug\net7.0\DataAcces
 C:\development\dotnet_projects\sugary-link\DataAccess\obj\Debug\net7.0\refint\DataAccess.dll
 C:\development\dotnet_projects\sugary-link\DataAccess\obj\Debug\net7.0\DataAccess.pdb
 C:\development\dotnet_projects\sugary-link\DataAccess\obj\Debug\net7.0\ref\DataAccess.dll
+C:\development\dotnet_projects\sugary-link\DataAccess\bin\Debug\net7.0\Framework.dll
+C:\development\dotnet_projects\sugary-link\DataAccess\bin\Debug\net7.0\Framework.pdb
+C:\development\dotnet_projects\sugary-link\DataAccess\obj\Debug\net7.0\DataAccess.csproj.CopyComplete

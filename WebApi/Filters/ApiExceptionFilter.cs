@@ -1,10 +1,10 @@
-﻿using Sugary.Framework.Exceptions;
-using Sugary.WepApi.Models;
+﻿using Sugary.WepApi.Models;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Filters;
 using NLog;
 using System;
 using System.Net;
+using Framework.Exceptions;
 using Microsoft.Identity.Client;
 using Logger = NLog.Logger;
 

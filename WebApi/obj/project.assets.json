@@ -1676,6 +1676,7 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v7.0",
         "dependencies": {
+          "Framework": "1.0.0",
           "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "7.0.4",
           "Microsoft.EntityFrameworkCore": "7.0.4"
         },

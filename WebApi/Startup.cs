@@ -2,6 +2,8 @@ using System.Net;
 using System.Text;
 using DataAccess;
 using DataAccess.Entities;
+using DataAccess.Repositories;
+using DataAccess.Repositories.Implementation;
 using Microsoft.AspNetCore.Authentication;
 using Microsoft.AspNetCore.Authentication.Cookies;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
@@ -13,6 +15,7 @@ using Microsoft.IdentityModel.Tokens;
 using Microsoft.OpenApi.Models;
 using Newtonsoft.Json;
 using Newtonsoft.Json.Serialization;
+using WebApi.Services;
 
 namespace WebApi;
 
@@ -86,10 +89,11 @@ public class Startup
         services.AddSingleton(Configuration);
         
         //Services
-        // services.AddScoped<INotificationService, NotificationService>();
+        services.AddScoped<ICipherService, CipherService>();
+        services.AddScoped<ITokenService, TokenService>();
 
         //Repository
-        // services.AddScoped<IApplicationRole, ApplicationRoleRepository>();
+        services.AddScoped<IUserRepository, UserRepository>();
             
         // Domain
         // services.AddScoped<IMaterialDomain, MaterialDomain>();
