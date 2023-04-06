@@ -1,0 +1,12 @@
+C:\development\dotnet_projects\sugary-link\DataAccess\bin\Debug\net7.0\DataAccess.deps.json
+C:\development\dotnet_projects\sugary-link\DataAccess\bin\Debug\net7.0\DataAccess.dll
+C:\development\dotnet_projects\sugary-link\DataAccess\bin\Debug\net7.0\DataAccess.pdb
+C:\development\dotnet_projects\sugary-link\DataAccess\obj\Debug\net7.0\DataAccess.csproj.AssemblyReference.cache
+C:\development\dotnet_projects\sugary-link\DataAccess\obj\Debug\net7.0\DataAccess.GeneratedMSBuildEditorConfig.editorconfig
+C:\development\dotnet_projects\sugary-link\DataAccess\obj\Debug\net7.0\DataAccess.AssemblyInfoInputs.cache
+C:\development\dotnet_projects\sugary-link\DataAccess\obj\Debug\net7.0\DataAccess.AssemblyInfo.cs
+C:\development\dotnet_projects\sugary-link\DataAccess\obj\Debug\net7.0\DataAccess.csproj.CoreCompileInputs.cache
+C:\development\dotnet_projects\sugary-link\DataAccess\obj\Debug\net7.0\DataAccess.dll
+C:\development\dotnet_projects\sugary-link\DataAccess\obj\Debug\net7.0\refint\DataAccess.dll
+C:\development\dotnet_projects\sugary-link\DataAccess\obj\Debug\net7.0\DataAccess.pdb
+C:\development\dotnet_projects\sugary-link\DataAccess\obj\Debug\net7.0\ref\DataAccess.dll

@@ -1,0 +1,12 @@
+C:\development\dotnet_projects\sugary-link\Framework\bin\Debug\net7.0\Framework.deps.json
+C:\development\dotnet_projects\sugary-link\Framework\bin\Debug\net7.0\Framework.dll
+C:\development\dotnet_projects\sugary-link\Framework\bin\Debug\net7.0\Framework.pdb
+C:\development\dotnet_projects\sugary-link\Framework\obj\Debug\net7.0\Framework.csproj.AssemblyReference.cache
+C:\development\dotnet_projects\sugary-link\Framework\obj\Debug\net7.0\Framework.GeneratedMSBuildEditorConfig.editorconfig
+C:\development\dotnet_projects\sugary-link\Framework\obj\Debug\net7.0\Framework.AssemblyInfoInputs.cache
+C:\development\dotnet_projects\sugary-link\Framework\obj\Debug\net7.0\Framework.AssemblyInfo.cs
+C:\development\dotnet_projects\sugary-link\Framework\obj\Debug\net7.0\Framework.csproj.CoreCompileInputs.cache
+C:\development\dotnet_projects\sugary-link\Framework\obj\Debug\net7.0\Framework.dll
+C:\development\dotnet_projects\sugary-link\Framework\obj\Debug\net7.0\refint\Framework.dll
+C:\development\dotnet_projects\sugary-link\Framework\obj\Debug\net7.0\Framework.pdb
+C:\development\dotnet_projects\sugary-link\Framework\obj\Debug\net7.0\ref\Framework.dll
